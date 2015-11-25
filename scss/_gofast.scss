@@ -1,0 +1,18 @@
+// goFast
+.goFast:hover {
+  animation-name: goFast;
+  animation-timing-function: ease-out;
+  animation-duration: 1.2s;
+  animation-direction: alternate;
+}
+
+@keyframes goFast {
+
+  80% {
+    transform: translateX(-10px);
+  }
+  100%{
+    transform: translateX(50px);
+  }
+
+}

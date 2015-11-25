@@ -1,0 +1,22 @@
+// dance
+.dance:hover {
+  animation-name: dance;
+  animation-duration: 1.4s;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes dance {
+
+  10%,40% ,80%{
+      transform: translateY(-10px);
+  }
+  50% {
+    transform: skewY(15deg);
+  }
+  70% {
+    transform: skewY(-15deg);
+  }
+  20% ,60%, 100% {
+      transform: scale3d(1, .80, 1);
+  }
+}

@@ -1,0 +1,24 @@
+// pulse
+.pulse:hover {
+  animation-name: pulse;
+  animation-timing-function: cubic-bezier(.420, 0, .58, 1);
+  animation-duration: 1.5s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

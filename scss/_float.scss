@@ -1,0 +1,16 @@
+// float
+.float:hover {
+  animation-name: float;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes float {
+  25% , 75% {
+    transform: translateY(-8px);
+  }
+
+  50% , 100%  {
+    transform: translateY(-4px);
+  }
+}
