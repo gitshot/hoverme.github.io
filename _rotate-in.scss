@@ -1,0 +1,18 @@
+.rotateIn {
+  animation-name: rotateIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+ }
+
+@keyframes rotateIn {
+  0% {
+    transform-origin: center;
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+  100% {
+    transform-origin: center;
+    transform: none;
+    opacity: 1;
+  }
+ } 
