@@ -6,19 +6,18 @@
 }
 
 @keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  20% {
-    transform: scale(1.1);
-  }
-  50% {
-    transform: scale(1);
-  }
-  80% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
+            0% { 
+                transform: scale(.5); 
+                background-color: green; 
+                border-radius: 100%; 
+            } 
+  
+            50% { 
+                background-color: orange; 
+            } 
+  
+            100% { 
+                transform: scale(2.0); 
+                background-color: red; 
+            } 
 }
